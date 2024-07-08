@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "../layout/Header";
 
 export default function App() {
 	return (
-		<h1 className="text-3xl font-bold underline text-red-300">Hello world!</h1>
+		<div className="page dark:bg-n-8 min-h-screen">
+			<Header />
+		</div>
 	);
 }
